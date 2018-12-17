@@ -25,13 +25,13 @@ Created on Wed Dec  5 10:09:39 2018
 #hien = Customer('hien hang', 20000)
 
 
-#class Animal():
-#    def __init__(self,name,age):
-#        self.name = name
-#        self.age = age
-#        
-#    def eat(self):
-#        print('yum')
+class Animal():
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+        
+    def eat(self):
+        print('yum')
 #
 #class Dog(Animal):
 #    def __init__(self,name,age,breed):
@@ -64,15 +64,15 @@ Created on Wed Dec  5 10:09:39 2018
 
 class Dog(Animal): 
     def bark(self):
-        print(‘Woof!’)
+        print('Woof')
         
 class Robot():
     def move(self):
-        print(‘...move move move...’) 
+        print('...move move move...') 
         
 class CleanRobot(Robot):
     def clean(self):
-        print(‘I vacuum dust’)
+        print('I vacuum dust')
         
 class SuperRobot(): 
     def _init_(self):
@@ -81,7 +81,7 @@ class SuperRobot():
         self.o3 = CleanRobot()
         
     def playGame(self): 
-        print(‘alphago game’)
+        print('alphago game')
         
     def move(self):
         return self.o1.move()
@@ -91,5 +91,11 @@ class SuperRobot():
     
     def clean(self):
         return self.o3.clean()
-
+    
+name = input("what is your pets name?")
+age = input("what is " + name + "age?")
+machinepet = SuperRobot()
+machinepet.bark()
+machinepet.playGame()
+machinepet.clean()
 
