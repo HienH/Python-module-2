@@ -6,7 +6,7 @@ This is a temporary script file.
 """
 #task 1
 """
-print("hello world")
+#this is a comment 
 print(5 - 6)
 print(8 * 9)
 print(6 / 2)

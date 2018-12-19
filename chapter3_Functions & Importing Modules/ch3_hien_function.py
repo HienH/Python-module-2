@@ -13,10 +13,11 @@ Created on Mon Dec  3 09:37:19 2018
 #
 #print ("Hello {}!".format(name))
 #
-##task 2 
-#def add(a,b):
-#    return print(a+b)
-#add(2,2)
+#task 2 
+def add(a,b):
+    return print(a+b)
+
+add(2,2)
 #
 #print (range (1,10,2))
 #print (range (1,10))

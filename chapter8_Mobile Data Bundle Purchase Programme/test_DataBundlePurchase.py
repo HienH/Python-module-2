@@ -7,10 +7,8 @@ Created on Tue Dec 11 10:34:44 2018
 """
 from SimpleBundlePurchase import DataBundlePurchase
 
-
 # Test call to programme:
 print ('TEST EXAMPLE 1')
-# database input, you will still need to check user pin
 result = DataBundlePurchase('1234', 34.55)
 print ('-----\nRESULT:', result)
 print ('-' * 50, '\n')

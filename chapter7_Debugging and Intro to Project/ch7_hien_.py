@@ -7,10 +7,10 @@ Created on Thu Dec 13 14:30:14 2018
 """
 
 userInput = input('Please give a number ')
+print(type(userInput))
 userInput = int(userInput)
 result = userInput - 2
 print(result)
-
 
 userInput = input('Please give a number ')
 def simpleOperation(userInput):
