@@ -44,7 +44,7 @@ x =[7, 11, 3, 9, 2]
 x.sort()
 print(x)
 
-sort() mutates the list sorted() return new object 
+##sort() mutates the list sorted() return new object 
 
  reverse sort
 z = sorted(x,reverse=True)
