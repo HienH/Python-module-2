@@ -17,8 +17,8 @@ Created on Mon Dec  3 09:37:19 2018
 def add(a,b):
     return print(a+b)
 
-add(2,2)
-#
+
+
 #print (range (1,10,2))
 #print (range (1,10))
 #print (range (10))
