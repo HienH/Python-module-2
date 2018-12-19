@@ -7,12 +7,12 @@ Created on Mon Dec  3 09:37:19 2018
 """
 
 #####################Task1################################
-
+#
 #print ("What’s your name?")
 #name = input()
 #
 #print ("Hello {}!".format(name))
-#
+
 #####################Task2################################
 def add(a,b):
     return print(a+b)
