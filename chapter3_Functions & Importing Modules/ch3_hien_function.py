@@ -6,14 +6,14 @@ Created on Mon Dec  3 09:37:19 2018
 @author: hienh
 """
 
-##task1
-#
+#####################Task1################################
+
 #print ("What’s your name?")
 #name = input()
 #
 #print ("Hello {}!".format(name))
 #
-#task 2 
+#####################Task2################################
 def add(a,b):
     return print(a+b)
 
@@ -23,7 +23,7 @@ add(2,2)
 #print (range (1,10))
 #print (range (10))
 
-#task3
+#####################Task3################################
 
 def add_two_numbers_from_args(number1, number2):
  answer = number1 + number2
@@ -39,7 +39,7 @@ def convert_distance(miles):
     return convertdist
 
 
-#task4
+#####################Task4################################
 def temperatureconversion(centigrade):
     fahrenheit = centigrade * 9.0 / 5.0 + 32
     kelvin = centigrade + 273.15
