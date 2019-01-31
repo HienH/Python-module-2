@@ -21,21 +21,29 @@ class MovingShape:
         self.maxx = frame.width - self.diameter
         self.maxy = frame.height - self.diameter
         
+        #def starting position for shapes
         self.x = self.minx + (r()* (self.maxx - self.minx))
         self.y= self.miny + (r()* (self.maxy - self.miny))
-        
+ 
+        #Move shapes in different direction
         self.dx=5+10*r()
         self.dy=5+10 *r()
+        
+        #randomising starting posiiton 
+        self.goto(self.x,self.y)
         
         
     def goto(self,x,y):
         self.figure.goto(x,y)
+
             
     def moveTick(self):
     
         self.x= self.x
         self.y= self.y
- 
+        
+        #bouncing shape when it hits the wall 
+    
         if self.x >= self.maxx :
             self.dx = self.dx * -1 
     
@@ -62,7 +70,8 @@ class Square(MovingShape):
         self.minx = self.diameter/2
         self.miny = self.diameter/2
 
-    
+
+#Generating different shape      
         
 class Diamond(MovingShape):
     def __init__(self,frame,diameter):

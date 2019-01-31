@@ -19,3 +19,7 @@ for i in range (numshapes):
 for i in range(300):
     for shape in shapes:
         shape.moveTick()
+        
+        
+        
+        
